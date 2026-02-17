@@ -104,6 +104,10 @@ The logs are saved as CSV files with timestamps. Look for the following columns:
 - `usb_events`: Any text found in `dmesg` relating to USB errors.
 - `log_errors`: Errors found in `klippy.log` (e.g., Timer too close).
 
+--- Installation Complete ---
+Monitor is running. Logs are in /home/pi/voron_monitor/logs
+Check status with: sudo systemctl status voron_monitor.servic
+
 ## Troubleshooting
 
 - **`cyclictest not found`**: Install `rt-tests`.

@@ -19,7 +19,7 @@ A Python script designed to run alongside Klipper on a Raspberry Pi (or similar 
 2.  Unzip and run the installer:
     ```bash
     unzip voron_monitor.zip
-    cd voron_monitor_pack
+    cd voron_monitor
     chmod +x install.sh
     ./install.sh
     ```
